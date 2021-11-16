@@ -4111,3 +4111,27 @@ input, select, textarea {
 	font-size: 4.5rem;
 	transform: translateY(1rem);
 }
+
+.contact-info{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.info-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-container p{
+	font-size: 1.3rem;
+
+}
+
+.info-container .title{
+	color: #fff;
+	font-weight: bold;
+	margin-right: 1rem;
+	font-size: 1.3rem;
+}
